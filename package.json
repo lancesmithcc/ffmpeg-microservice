@@ -1,0 +1,13 @@
+{
+  "name": "ffmpeg-microservice",
+  "version": "1.0.0",
+  "description": "A microservice to mix audio files using ffmpeg.",
+  "main": "functions/mix-audio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
